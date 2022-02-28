@@ -1,7 +1,9 @@
+import Home from './pages/Home';
+
 function App() {
   return (
     <div>
-      SpaceX
+      <Home />
     </div>
   );
 }
