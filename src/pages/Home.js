@@ -1,8 +1,11 @@
+import React, { useState } from 'react';
 import Header from '../components/Header';
 import Button from '../components/Button';
 import Body from '../components/Body';
 
 function Home() {
+
+
     return (
       <div>
         <Header />
