@@ -27,3 +27,11 @@ export const getAllUpcomingLaunches = () => {
     
     return allUpcomingLaunches;
 }
+
+export const getAllPastLaunches = () => {
+    const allPastLaunches = api.get('/v4/launches/past')
+        .then((response) => response.data)
+        .catch((error) => console.log(error.response));
+
+    return allPastLaunches;
+}
