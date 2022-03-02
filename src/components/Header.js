@@ -1,6 +1,8 @@
 function Header() {
 	return (
-		<header>SpaceX</header>
+		<header>
+			<h1>SpaceX</h1>
+		</header>
 	);
 }
   

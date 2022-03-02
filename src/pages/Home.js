@@ -28,12 +28,14 @@ function Home() {
 	}
 
 	return (
-		<div>
+		<div className="container-home-page">
 			<Header />
-			<Button name='Próximo Lançamento' func={ nextLaunch } />
-			<Button name='Último Lançamento' func={ latestLaunch } />
-			<Button name='Próximos Lançamentos' func={ allUpComingLaunches } />
-			<Button name='Lançamentos passados' func={ allPastLaunches } />
+			<div>
+				<Button name='Próximo Lançamento' func={ nextLaunch } />
+				<Button name='Último Lançamento' func={ latestLaunch } />
+				<Button name='Próximos Lançamentos' func={ allUpComingLaunches } />
+				<Button name='Lançamentos passados' func={ allPastLaunches } />
+			</div>
 			<Body data={ data } />
 		</div>
 	);
