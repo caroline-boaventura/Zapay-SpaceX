@@ -1,37 +1,37 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://api.spacexdata.com',
+  baseURL: 'https://api.spacexdata.com',
 })
 
 export const getNextLaunch = () => {
-    const nextLaunch = api.get('/v4/launches/next')
-        .then((response) => response.data)
-        .catch((error) => console.log(error.response));
-    
-    return nextLaunch;
+	const nextLaunch = api.get('/v4/launches/next')
+		.then((response) => response.data)
+		.catch((error) => console.log(error.response));
+	
+	return nextLaunch;
 };
 
 export const getLatestLaunch = () => {
-    const latestLaunch = api.get('/v4/launches/latest')
-        .then((response) => response.data)
-        .catch((error) => console.log(error.response));
+	const latestLaunch = api.get('/v4/launches/latest')
+		.then((response) => response.data)
+		.catch((error) => console.log(error.response));
 
-    return latestLaunch; 
+	return latestLaunch; 
 }
 
 export const getAllUpcomingLaunches = () => {
-    const allUpcomingLaunches = api.get('v4/launches/upcoming')
-        .then((response) => response.data)
-        .catch((error) => console.log(error.response));
-    
-    return allUpcomingLaunches;
+	const allUpcomingLaunches = api.get('v4/launches/upcoming')
+		.then((response) => response.data)
+		.catch((error) => console.log(error.response));
+	
+	return allUpcomingLaunches;
 }
 
 export const getAllPastLaunches = () => {
-    const allPastLaunches = api.get('/v4/launches/past')
-        .then((response) => response.data)
-        .catch((error) => console.log(error.response));
+	const allPastLaunches = api.get('/v4/launches/past')
+		.then((response) => response.data)
+		.catch((error) => console.log(error.response));
 
-    return allPastLaunches;
+	return allPastLaunches;
 }
