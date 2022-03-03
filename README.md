@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Bem-vindos ao Projeto SpaceX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deploy: https://zapay-spacex.herokuapp.com/
 
-## Available Scripts
+![Home](/images/App1.jpeg)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Contexto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Projeto front-end desenvolvido para o processo seletivo da empresa [Zapay](https://usezapay.com.br/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A proposta foi de desenvolver uma aplicação front-end em React que consuma a API da [SpaceX](https://github.com/r-spacex/SpaceX-API/tree/master/docs) e apresente os seguintes dados: **próximo lançamento, último lançamento, próximos lançamentos e lançamentos passados**.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalando as dependências
 
-### `npm run build`
+**Pré-requisitos para rodar o projeto**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    - NPM
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Como instalar**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Faça o clone do projeto com os comandos abaixo:
+        - ```git clone git@github.com:caroline-boaventura/Zapay-SpaceX.git```
+        - cd ```Zapay-SpaceX```
+        - Instale as dependências:
+            - ```npm install```
+        - Execute o projeto:
+            - ```npm start```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Modo de desenvolvimento
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto foi desenvolvido seguindo os seguintes passos: 
+    - Estudo da documentação da API
+    - Criação de um protótipo no Excalidraw
+    ![Protótipo](/images/excalidraw.png)
+    - Desenvolvimento da aplicação
+    - Desenvolvimento de testes unitários
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Aplicação
 
-## Learn More
+![Próximo Lançamento](/images/App2.jpeg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Lançamentos Passados](/images/App3.jpeg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Próximos Passos
+    - Melhorar a cobertura de testes
+    - Animação CSS na página inicial
+    - Melhorar versão responsível
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Contatos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Caroline Boaventura
 
-### Making a Progressive Web App
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" height=20px>      https://www.linkedin.com/in/caroline-boaventura/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height=20px>      https://github.com/caroline-boaventura
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://logospng.org/download/gmail/logo-gmail-512.png" height=20px>      caroline.boaventura08@gmail.com
