@@ -18,28 +18,35 @@ A proposta foi de desenvolver uma aplicação front-end em React que consuma a A
 
 **Pré-requisitos para rodar o projeto**
 
-    - NPM
+`NPM`
 
 **Como instalar**
 
-    - Faça o clone do projeto com os comandos abaixo:
-        - ```git clone git@github.com:caroline-boaventura/Zapay-SpaceX.git```
-        - cd ```Zapay-SpaceX```
-        - Instale as dependências:
-            - ```npm install```
-        - Execute o projeto:
-            - ```npm start```
+- Faça o clone do projeto com os comandos abaixo:
+    - `git clone git@github.com:caroline-boaventura/Zapay-SpaceX.git`
+    - `cd Zapay-SpaceX`
+    
+- Instale as dependências:
+    - `npm install`
+        
+- Execute o projeto:  
+    - `npm start`
 
 ---
 
 ## Modo de desenvolvimento
 
-O projeto foi desenvolvido seguindo os seguintes passos: 
-    - Estudo da documentação da API
-    - Criação de um protótipo no Excalidraw
-    ![Protótipo](/images/excalidraw.png)
-    - Desenvolvimento da aplicação
-    - Desenvolvimento de testes unitários
+O projeto foi desenvolvido seguindo os seguintes passos:
+
+- Estudo da documentação da API
+    
+- Criação de um protótipo no Excalidraw
+
+![Protótipo](/images/excalidraw.png)
+    
+- Desenvolvimento da aplicação
+    
+- Desenvolvimento de testes unitários
 
 ---
 
@@ -52,9 +59,9 @@ O projeto foi desenvolvido seguindo os seguintes passos:
 ---
 
 ## Próximos Passos
-    - Melhorar a cobertura de testes
-    - Animação CSS na página inicial
-    - Melhorar versão responsível
+- Melhorar a cobertura de testes
+- Animação CSS na página inicial
+- Melhorar versão responsível
 
 ---
 
