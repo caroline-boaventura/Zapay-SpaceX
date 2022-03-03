@@ -31,10 +31,10 @@ function Home() {
 		<div className="container-home-page">
 			<Header />
 			<div>
-				<Button name='Próximo Lançamento' func={ nextLaunch } />
-				<Button name='Último Lançamento' func={ latestLaunch } />
-				<Button name='Próximos Lançamentos' func={ allUpComingLaunches } />
-				<Button name='Lançamentos passados' func={ allPastLaunches } />
+				<Button dataTestId="next" name='Próximo Lançamento' func={ nextLaunch } />
+				<Button dataTestId="latest" name='Último Lançamento' func={ latestLaunch } />
+				<Button dataTestId="upcoming" name='Próximos Lançamentos' func={ allUpComingLaunches } />
+				<Button dataTestId="past" name='Lançamentos Passados' func={ allPastLaunches } />
 			</div>
 			<Body data={ data } />
 		</div>

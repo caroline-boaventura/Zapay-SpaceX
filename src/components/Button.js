@@ -1,6 +1,6 @@
-function Button({ name, func }) {
+function Button({ name, func, dataTestId }) {
 	return (
-		<button onClick={ () => func() }>{ name }</button>
+		<button data-testid={dataTestId} onClick={ () => func() }>{ name }</button>
 	);
 }
 

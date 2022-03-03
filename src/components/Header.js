@@ -1,6 +1,6 @@
 function Header() {
 	return (
-		<header>
+		<header data-testid="header">
 			<h1>SpaceX</h1>
 		</header>
 	);

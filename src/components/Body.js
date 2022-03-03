@@ -6,7 +6,7 @@ function Body({ data }) {
 		if (Array.isArray(data)) {
 			return (
 				data.map((launche) => (
-					<div className="launches">
+					<div data-testid="launches-card" className="launches">
 						<img src={ launche.links.patch.small } alt={ launche.name } />
 						<div>
 							<h2>{ launche.name }</h2>
